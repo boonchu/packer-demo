@@ -1,7 +1,10 @@
 #!/bin/bash
 set -ex
 
-AWS_REGION="eu-west-1"
+export PACKER_LOG=1
+export PACKER_LOG_PATH="logs/packer.log"
+
+AWS_REGION="us-west-2"
 
 ARTIFACT=`packer build -machine-readable packer-demo.json | awk -F, '$0 ~/artifact,0,id/ {print $6}'`
 echo "packer output:"

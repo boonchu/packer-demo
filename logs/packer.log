@@ -1,0 +1,592 @@
+2023/07/29 13:03:03 [INFO] Packer version: 1.8.6 [go1.19.6 linux amd64]
+2023/07/29 13:03:03 [TRACE] discovering plugins in /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin
+2023/07/29 13:03:03 [TRACE] discovering plugins in /home/bigchoo/.config/packer/plugins
+2023/07/29 13:03:03 [TRACE] discovering plugins in .
+2023/07/29 13:03:03 [TRACE] discovering plugins in 
+2023/07/29 13:03:03 [TRACE] discovering plugins in /home/linuxbrew/.linuxbrew/bin
+2023/07/29 13:03:03 [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2023/07/29 13:03:03 [INFO] PACKER_CONFIG env var set; attempting to open config file: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 [WARN] Config file doesn't exist: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 [INFO] Setting cache directory: /home/bigchoo/.cache/packer
+2023/07/29 13:03:03 [TRACE] Starting internal plugin packer-builder-amazon-ebs
+2023/07/29 13:03:03 Starting plugin: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer []string{"/home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer", "plugin", "packer-builder-amazon-ebs"}
+2023/07/29 13:03:03 Waiting for RPC address for: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] Packer version: 1.8.6 [go1.19.6 linux amd64]
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [WARN] Config file doesn't exist: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] Setting cache directory: /home/bigchoo/.cache/packer
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: args: []string{"packer-builder-amazon-ebs"}
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: Plugin address: unix /tmp/packer-plugin3525358875
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: Waiting for connection...
+2023/07/29 13:03:03 Received unix RPC address for /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: addr is /tmp/packer-plugin3525358875
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: Serving a plugin connection...
+2023/07/29 13:03:03 [TRACE] Starting internal plugin packer-provisioner-shell
+2023/07/29 13:03:03 Starting plugin: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer []string{"/home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer", "plugin", "packer-provisioner-shell"}
+2023/07/29 13:03:03 Waiting for RPC address for: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] Packer version: 1.8.6 [go1.19.6 linux amd64]
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] Setting cache directory: /home/bigchoo/.cache/packer
+2023/07/29 13:03:03 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Plugin address: unix /tmp/packer-plugin2409937274
+2023/07/29 13:03:03 Received unix RPC address for /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: addr is /tmp/packer-plugin2409937274
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Waiting for connection...
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Serving a plugin connection...
+2023/07/29 13:03:03 [TRACE] Starting internal plugin packer-provisioner-shell
+2023/07/29 13:03:03 Starting plugin: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer []string{"/home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer", "plugin", "packer-provisioner-shell"}
+2023/07/29 13:03:03 Waiting for RPC address for: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] Packer version: 1.8.6 [go1.19.6 linux amd64]
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] Setting cache directory: /home/bigchoo/.cache/packer
+2023/07/29 13:03:03 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Plugin address: unix /tmp/packer-plugin4177767965
+2023/07/29 13:03:03 Received unix RPC address for /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: addr is /tmp/packer-plugin4177767965
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Waiting for connection...
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Serving a plugin connection...
+2023/07/29 13:03:03 [TRACE] Starting internal plugin packer-provisioner-file
+2023/07/29 13:03:03 Starting plugin: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer []string{"/home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer", "plugin", "packer-provisioner-file"}
+2023/07/29 13:03:03 Waiting for RPC address for: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer
+2023/07/29 13:03:03 packer-provisioner-file plugin: [INFO] Packer version: 1.8.6 [go1.19.6 linux amd64]
+2023/07/29 13:03:03 packer-provisioner-file plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2023/07/29 13:03:03 packer-provisioner-file plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-file plugin: [WARN] Config file doesn't exist: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-file plugin: [INFO] Setting cache directory: /home/bigchoo/.cache/packer
+2023/07/29 13:03:03 packer-provisioner-file plugin: args: []string{"packer-provisioner-file"}
+2023/07/29 13:03:03 packer-provisioner-file plugin: Plugin address: unix /tmp/packer-plugin596953093
+2023/07/29 13:03:03 packer-provisioner-file plugin: Waiting for connection...
+2023/07/29 13:03:03 Received unix RPC address for /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: addr is /tmp/packer-plugin596953093
+2023/07/29 13:03:03 packer-provisioner-file plugin: Serving a plugin connection...
+2023/07/29 13:03:03 [TRACE] Starting internal plugin packer-provisioner-shell
+2023/07/29 13:03:03 Starting plugin: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer []string{"/home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer", "plugin", "packer-provisioner-shell"}
+2023/07/29 13:03:03 Waiting for RPC address for: /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] Packer version: 1.8.6 [go1.19.6 linux amd64]
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /home/bigchoo/.packerconfig
+2023/07/29 13:03:03 packer-provisioner-shell plugin: [INFO] Setting cache directory: /home/bigchoo/.cache/packer
+2023/07/29 13:03:03 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Plugin address: unix /tmp/packer-plugin1892834042
+2023/07/29 13:03:03 Received unix RPC address for /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: addr is /tmp/packer-plugin1892834042
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Waiting for connection...
+2023/07/29 13:03:03 packer-provisioner-shell plugin: Serving a plugin connection...
+2023/07/29 13:03:03 Preparing build: amazon-ebs
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] (aws): No AWS timeout and polling overrides have been set. Packer will default to waiter-specific delays and timeouts. If you would like to customize the length of time between retries and max number of retries you may do so by setting the environment variables AWS_POLL_DELAY_SECONDS and AWS_MAX_ATTEMPTS or the configuration options aws_polling_delay_seconds and aws_polling_max_attempts to your desired values.
+2023/07/29 13:03:03 Build debug mode: false
+2023/07/29 13:03:03 Force build: false
+2023/07/29 13:03:03 On error: 
+2023/07/29 13:03:03 Waiting on builds to complete...
+2023/07/29 13:03:03 Starting build run: amazon-ebs
+2023/07/29 13:03:03 Running builder: amazon-ebs
+2023/07/29 13:03:03 [INFO] (telemetry) Starting builder amazon-ebs
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] AWS Auth provider used: "EnvProvider"
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: Found region us-west-2
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: [INFO] AWS Auth provider used: "EnvProvider"
+2023/07/29 13:03:03 1690660983,,ui,say,==> amazon-ebs: Prevalidating any provided VPC information
+2023/07/29 13:03:03 1690660983,,ui,say,==> amazon-ebs: Prevalidating AMI Name: packer-nodejs-demo 1690660983
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: Using AMI Filters {
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:   Filters: [{
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:       Name: "virtualization-type",
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:       Values: ["hvm"]
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:     },{
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:       Name: "name",
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:       Values: ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:     },{
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:       Name: "root-device-type",
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:       Values: ["ebs"]
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:     }],
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin:   Owners: ["099720109477"]
+2023/07/29 13:03:03 packer-builder-amazon-ebs plugin: }
+2023/07/29 13:03:04 1690660984,,ui,message,    amazon-ebs: Found Image ID: ami-016d1b215ea28dcee
+2023/07/29 13:03:04 1690660984,,ui,say,==> amazon-ebs: Creating temporary keypair: packer_64c57077-59cf-e57a-c406-3dfe5eca7b6c
+2023/07/29 13:03:04 1690660984,,ui,say,==> amazon-ebs: Creating temporary security group for this instance: packer_64c57078-df17-b45d-0bc0-df8d34e1b826
+2023/07/29 13:03:05 packer-builder-amazon-ebs plugin: [DEBUG] Waiting for temporary security group: sg-0037a2edcdcc51474
+2023/07/29 13:03:05 packer-builder-amazon-ebs plugin: [DEBUG] Found security group sg-0037a2edcdcc51474
+2023/07/29 13:03:05 1690660985,,ui,say,==> amazon-ebs: Authorizing access to port 22 from [0.0.0.0/0] in the temporary security groups...
+2023/07/29 13:03:05 1690660985,,ui,say,==> amazon-ebs: Launching a source AWS instance...
+2023/07/29 13:03:07 1690660987,,ui,message,    amazon-ebs: Instance ID: i-05bdb16ccc8358683
+2023/07/29 13:03:07 1690660987,,ui,say,==> amazon-ebs: Waiting for instance (i-05bdb16ccc8358683) to become ready...
+2023/07/29 13:03:38 packer-builder-amazon-ebs plugin: [INFO] Not using winrm communicator, skipping get password...
+2023/07/29 13:03:38 1690661018,,ui,say,==> amazon-ebs: Using SSH communicator to connect: 34.217.13.16
+2023/07/29 13:03:38 packer-builder-amazon-ebs plugin: [INFO] Waiting for SSH, up to timeout: 5m0s
+2023/07/29 13:03:38 1690661018,,ui,say,==> amazon-ebs: Waiting for SSH to become available...
+2023/07/29 13:03:38 packer-builder-amazon-ebs plugin: Using host value: 34.217.13.16
+2023/07/29 13:03:38 packer-builder-amazon-ebs plugin: [DEBUG] TCP connection to SSH ip/port failed: dial tcp 34.217.13.16:22: connect: connection refused
+2023/07/29 13:03:43 packer-builder-amazon-ebs plugin: Using host value: 34.217.13.16
+2023/07/29 13:03:43 packer-builder-amazon-ebs plugin: [DEBUG] TCP connection to SSH ip/port failed: dial tcp 34.217.13.16:22: connect: connection refused
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: Using host value: 34.217.13.16
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: [INFO] Attempting SSH connection to 34.217.13.16:22...
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: [DEBUG] reconnecting to TCP connection for SSH
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: [DEBUG] handshaking with SSH
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: [DEBUG] handshake complete!
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: [INFO] no local agent socket, will not connect agent
+2023/07/29 13:03:48 1690661028,,ui,say,==> amazon-ebs: Connected to SSH!
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: Running the provision hook
+2023/07/29 13:03:48 [INFO] (telemetry) Starting provisioner shell
+2023/07/29 13:03:48 1690661028,,ui,say,==> amazon-ebs: Provisioning with shell script: /tmp/packer-shell1902144948
+2023/07/29 13:03:48 packer-provisioner-shell plugin: Opening /tmp/packer-shell1902144948 for reading
+2023/07/29 13:03:48 packer-provisioner-shell plugin: [INFO] 204 bytes written for 'uploadData'
+2023/07/29 13:03:48 [INFO] 204 bytes written for 'uploadData'
+2023/07/29 13:03:48 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] Starting remote scp process:  scp -vt /tmp
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] Started SCP session, beginning transfers...
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] Copying input data into temporary file so we can read the length
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] scp: Uploading script_8633.sh: perms=C0644 size=204
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] Waiting for SSH session to complete.
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] scp stderr (length 70): Sink: C0644 204 script_8633.sh
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: chmod 0755 /tmp/script_8633.sh
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:03:49 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:03:49 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:03:49 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:03:49 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: chmod +x /tmp/script_8633.sh; PACKER_BUILDER_TYPE='amazon-ebs' PACKER_BUILD_NAME='amazon-ebs'  /tmp/script_8633.sh
+2023/07/29 13:03:49 1690661029,,ui,message,    amazon-ebs: Waiting until all the initialization processes are finished%!(PACKER_COMMA) including the Ubuntu Advantage activation process.
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: .......
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: status: done
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+2023/07/29 13:03:53 1690661033,,ui,message,    amazon-ebs: Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [855 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [961 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [207 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [21.4 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [41.6 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [9768 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [476 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [40.9 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [10.2 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:21 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:22 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [22.2 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:23 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [15.4 kB]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:24 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [580 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:25 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+2023/07/29 13:03:54 1690661034,,ui,message,    amazon-ebs: Get:26 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [764 kB]
+2023/07/29 13:03:55 1690661035,,ui,message,    amazon-ebs: Get:27 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [137 kB]
+2023/07/29 13:03:55 1690661035,,ui,message,    amazon-ebs: Get:28 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [16.3 kB]
+2023/07/29 13:03:55 1690661035,,ui,message,    amazon-ebs: Get:29 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [36.5 kB]
+2023/07/29 13:03:55 1690661035,,ui,message,    amazon-ebs: Get:30 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7060 B]
+2023/07/29 13:03:55 1690661035,,ui,message,    amazon-ebs: Get:31 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [260 B]
+2023/07/29 13:04:02 1690661042,,ui,message,    amazon-ebs: Fetched 23.8 MB in 4s (5582 kB/s)
+2023/07/29 13:04:03 1690661043,,ui,message,    amazon-ebs: Reading package lists...
+2023/07/29 13:04:03 1690661043,,ui,message,    amazon-ebs: Reading package lists...
+2023/07/29 13:04:03 1690661043,,ui,message,    amazon-ebs: Building dependency tree...
+2023/07/29 13:04:03 1690661043,,ui,message,    amazon-ebs: Reading state information...
+2023/07/29 13:04:03 1690661043,,ui,message,    amazon-ebs: Calculating upgrade...
+2023/07/29 13:04:04 1690661044,,ui,message,    amazon-ebs: 0 upgraded%!(PACKER_COMMA) 0 newly installed%!(PACKER_COMMA) 0 to remove and 0 not upgraded.
+2023/07/29 13:04:04 [INFO] 0 bytes written for 'stderr'
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] 3365 bytes written for 'stdout'
+2023/07/29 13:04:04 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] 3365 bytes written for 'stdout'
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] 0 bytes written for 'stderr'
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: rm -f /tmp/script_8633.sh
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: rm -f
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] (telemetry) ending shell
+2023/07/29 13:04:04 [INFO] (telemetry) Starting provisioner shell
+2023/07/29 13:04:04 1690661044,,ui,say,==> amazon-ebs: Provisioning with shell script: /tmp/packer-shell75700226
+2023/07/29 13:04:04 packer-provisioner-shell plugin: Opening /tmp/packer-shell75700226 for reading
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] 340 bytes written for 'uploadData'
+2023/07/29 13:04:04 [INFO] 340 bytes written for 'uploadData'
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Starting remote scp process:  scp -vt /tmp
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Started SCP session, beginning transfers...
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Copying input data into temporary file so we can read the length
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] scp: Uploading script_7880.sh: perms=C0644 size=340
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Waiting for SSH session to complete.
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] scp stderr (length 70): Sink: C0644 340 script_7880.sh
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: chmod 0755 /tmp/script_7880.sh
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:04 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:04 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: chmod +x /tmp/script_7880.sh; PACKER_BUILDER_TYPE='amazon-ebs' PACKER_BUILD_NAME='amazon-ebs'  /tmp/script_7880.sh
+2023/07/29 13:04:04 1690661044,,ui,message,    amazon-ebs: Removing information that is particular to the instance used to build the image%!(PACKER_COMMA) such as the machine ID and the Ubuntu Advantage generated token.
+2023/07/29 13:04:04 1690661044,,ui,error,==> amazon-ebs: This machine is not attached to an Ubuntu Pro subscription.
+2023/07/29 13:04:04 1690661044,,ui,error,==> amazon-ebs: See https://ubuntu.com/pro
+2023/07/29 13:04:04 1690661044,,ui,message,    amazon-ebs: ignore error
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] 159 bytes written for 'stdout'
+2023/07/29 13:04:05 [INFO] 87 bytes written for 'stderr'
+2023/07/29 13:04:05 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:05 packer-provisioner-shell plugin: [INFO] 159 bytes written for 'stdout'
+2023/07/29 13:04:05 packer-provisioner-shell plugin: [INFO] 87 bytes written for 'stderr'
+2023/07/29 13:04:05 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: rm -f /tmp/script_7880.sh
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:05 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: rm -f
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:05 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:05 [INFO] (telemetry) ending shell
+2023/07/29 13:04:05 [INFO] (telemetry) Starting provisioner file
+2023/07/29 13:04:05 1690661045,,ui,say,==> amazon-ebs: Uploading app => /tmp/app
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Upload dir 'app' to '/tmp/app'
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Starting remote scp process:  scp -rvt /tmp/app
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Started SCP session, beginning transfers...
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] No trailing slash, creating the source directory name
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] SCP: starting directory upload: app
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] scp: Uploading package.json: perms=C0644 size=228
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] scp: Uploading index.js: perms=C0644 size=316
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] Waiting for SSH session to complete.
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: [DEBUG] scp stderr (length 158): Sink: D0755 0 app
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: Sink: C0644 228 package.json
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: Sink: C0644 316 index.js
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2023/07/29 13:04:05 packer-builder-amazon-ebs plugin: Sink: E
+2023/07/29 13:04:05 [INFO] (telemetry) ending file
+2023/07/29 13:04:05 [INFO] (telemetry) Starting provisioner shell
+2023/07/29 13:04:05 1690661045,,ui,say,==> amazon-ebs: Pausing 10s before the next provisioner...
+2023/07/29 13:04:15 1690661055,,ui,say,==> amazon-ebs: Provisioning with shell script: scripts/deploy.sh
+2023/07/29 13:04:15 packer-provisioner-shell plugin: Opening scripts/deploy.sh for reading
+2023/07/29 13:04:15 packer-provisioner-shell plugin: [INFO] 980 bytes written for 'uploadData'
+2023/07/29 13:04:15 [INFO] 980 bytes written for 'uploadData'
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Starting remote scp process:  scp -vt /tmp
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Started SCP session, beginning transfers...
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Copying input data into temporary file so we can read the length
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] scp: Uploading script_4344.sh: perms=C0644 size=980
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] SCP session complete, closing stdin pipe.
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Waiting for SSH session to complete.
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] scp stderr (length 70): Sink: C0644 980 script_4344.sh
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: chmod 0755 /tmp/script_4344.sh
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:15 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:15 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:15 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:15 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: PACKER_BUILDER_TYPE='amazon-ebs' PACKER_BUILD_NAME='amazon-ebs'  sudo -E sh '/tmp/script_4344.sh'
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs: ================================================================================
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs: ================================================================================
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:                               DEPRECATION WARNING
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   Node.js 14.x is no longer actively supported!
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   You will not receive security or critical stability updates for this version.
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   You should migrate to a supported version of Node.js as soon as possible.
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   Use the installation script that corresponds to the version of Node.js you
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   wish to install. e.g.
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:    * https://deb.nodesource.com/setup_16.x — Node.js 16 "Gallium"
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:    * https://deb.nodesource.com/setup_18.x — Node.js 18 LTS "Hydrogen" (recommended)
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:    * https://deb.nodesource.com/setup_19.x — Node.js 19 "Nineteen"
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:    * https://deb.nodesource.com/setup_20.x — Node.js 20 "Iron" (current)
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   Please see https://github.com/nodejs/Release for details about which
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   version may be appropriate for you.
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   The NodeSource Node.js distributions repository contains
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   information both about supported versions of Node.js and supported Linux
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:   distributions. To learn more about usage%!(PACKER_COMMA) see the repository:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:     https://github.com/nodesource/distributions
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs: ================================================================================
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs: ================================================================================
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs: Continuing in 20 seconds ...
+2023/07/29 13:04:15 1690661055,,ui,message,    amazon-ebs:
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs:
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs: ## Installing the NodeSource Node.js 14.x repo...
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs:
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs:
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs: ## Populating apt-get cache...
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs:
+2023/07/29 13:04:35 1690661075,,ui,message,    amazon-ebs: + apt-get update
+2023/07/29 13:04:36 1690661076,,ui,message,    amazon-ebs: Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+2023/07/29 13:04:36 1690661076,,ui,message,    amazon-ebs: Hit:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease
+2023/07/29 13:04:36 1690661076,,ui,message,    amazon-ebs: Hit:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
+2023/07/29 13:04:36 1690661076,,ui,message,    amazon-ebs: Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+2023/07/29 13:04:37 1690661077,,ui,message,    amazon-ebs: Reading package lists...
+2023/07/29 13:04:37 1690661077,,ui,message,    amazon-ebs:
+2023/07/29 13:04:37 1690661077,,ui,message,    amazon-ebs: ## Confirming "jammy" is supported...
+2023/07/29 13:04:37 1690661077,,ui,message,    amazon-ebs:
+2023/07/29 13:04:37 1690661077,,ui,message,    amazon-ebs: + curl -sLf -o /dev/null 'https://deb.nodesource.com/node_14.x/dists/jammy/Release'
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs:
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: ## Adding the NodeSource signing key to your keyring...
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs:
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: + curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | gpg --dearmor | tee /usr/share/keyrings/nodesource.gpg >/dev/null
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs:
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: ## Creating apt sources list file for the NodeSource Node.js 14.x repo...
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs:
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: + echo 'deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x jammy main' > /etc/apt/sources.list.d/nodesource.list
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: + echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x jammy main' >> /etc/apt/sources.list.d/nodesource.list
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs:
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: ## Running `apt-get update` for you...
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs:
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: + apt-get update
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: Hit:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: Hit:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: Get:4 https://deb.nodesource.com/node_14.x jammy InRelease [4563 B]
+2023/07/29 13:04:38 1690661078,,ui,message,    amazon-ebs: Hit:5 http://security.ubuntu.com/ubuntu jammy-security InRelease
+2023/07/29 13:04:39 1690661079,,ui,message,    amazon-ebs: Get:6 https://deb.nodesource.com/node_14.x jammy/main amd64 Packages [776 B]
+2023/07/29 13:04:39 1690661079,,ui,message,    amazon-ebs: Fetched 5339 B in 1s (7338 B/s)
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Reading package lists...
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: ## Run `sudo apt-get install -y nodejs` to install Node.js 14.x and npm
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: ## You may also need development tools to build native addons:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:      sudo apt-get install gcc g++ make
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: ## To install the Yarn package manager%!(PACKER_COMMA) run:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:      curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:      echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:      sudo apt-get update && sudo apt-get install yarn
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Reading package lists...
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Building dependency tree...
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Reading state information...
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: The following additional packages will be installed:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   fontconfig-config fonts-dejavu-core libdeflate0 libfontconfig1 libgd3
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libjbig0 libjpeg-turbo8 libjpeg8 libnginx-mod-http-geoip2
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip2 libtiff5
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libwebp7 libxpm4 nginx-common nginx-core
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Suggested packages:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libgd-tools fcgiwrap nginx-doc ssl-cert
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: The following NEW packages will be installed:
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   fontconfig-config fonts-dejavu-core libdeflate0 libfontconfig1 libgd3
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libjbig0 libjpeg-turbo8 libjpeg8 libnginx-mod-http-geoip2
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip2 libtiff5
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs:   libwebp7 libxpm4 nginx nginx-common nginx-core nodejs
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: 0 upgraded%!(PACKER_COMMA) 21 newly installed%!(PACKER_COMMA) 0 to remove and 0 not upgraded.
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Need to get 28.1 MB of archives.
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: After this operation%!(PACKER_COMMA) 130 MB of additional disk space will be used.
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.1 [206 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.4 [183 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:10 https://deb.nodesource.com/node_14.x jammy/main amd64 nodejs amd64 14.21.3-deb-1nodesource1 [25.4 MB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.1 [36.4 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libgd3 amd64 2.3.0-2ubuntu2 [129 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx-common all 1.18.0-6ubuntu14.4 [40.0 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-geoip2 amd64 1.18.0-6ubuntu14.4 [11.9 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-image-filter amd64 1.18.0-6ubuntu14.4 [15.4 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-http-xslt-filter amd64 1.18.0-6ubuntu14.4 [13.7 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-mail amd64 1.18.0-6ubuntu14.4 [45.7 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-stream amd64 1.18.0-6ubuntu14.4 [72.9 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnginx-mod-stream-geoip2 amd64 1.18.0-6ubuntu14.4 [10.1 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx-core amd64 1.18.0-6ubuntu14.4 [484 kB]
+2023/07/29 13:04:40 1690661080,,ui,message,    amazon-ebs: Get:21 http://us-west-2.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 nginx amd64 1.18.0-6ubuntu14.4 [3872 B]
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal%!(PACKER_COMMA) an emacs shell buffer%!(PACKER_COMMA) or without a controlling terminal.)
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: debconf: falling back to frontend: Readline
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: debconf: falling back to frontend: Teletype
+2023/07/29 13:04:41 1690661081,,ui,error,==> amazon-ebs: dpkg-preconfigure: unable to re-open stdin:
+2023/07/29 13:04:41 1690661081,,ui,message,    amazon-ebs: Fetched 28.1 MB in 0s (66.7 MB/s)
+2023/07/29 13:04:41 1690661081,,ui,message,    amazon-ebs: Selecting previously unselected package fonts-dejavu-core.
+2023/07/29 13:04:41 1690661081,,ui,message,    amazon-ebs: (Reading database ... 64312 files and directories currently installed.)
+2023/07/29 13:04:41 1690661081,,ui,message,    amazon-ebs: Preparing to unpack .../00-fonts-dejavu-core_2.37-2build1_all.deb ...
+2023/07/29 13:04:41 1690661081,,ui,message,    amazon-ebs: Unpacking fonts-dejavu-core (2.37-2build1) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package fontconfig-config.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../01-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libdeflate0:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../02-libdeflate0_1.10-2_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libdeflate0:amd64 (1.10-2) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libfontconfig1:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../03-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libjpeg-turbo8:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../04-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libjpeg8:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../05-libjpeg8_8c-2ubuntu10_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libjbig0:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../06-libjbig0_2.1-3.1ubuntu0.22.04.1_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libwebp7:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../07-libwebp7_1.2.2-2ubuntu0.22.04.1_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.1) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libtiff5:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../08-libtiff5_4.3.0-6ubuntu0.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libxpm4:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../09-libxpm4_1%3a3.5.12-1ubuntu0.22.04.1_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.1) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libgd3:amd64.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../10-libgd3_2.3.0-2ubuntu2_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libgd3:amd64 (2.3.0-2ubuntu2) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package nginx-common.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../11-nginx-common_1.18.0-6ubuntu14.4_all.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking nginx-common (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libnginx-mod-http-geoip2.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../12-libnginx-mod-http-geoip2_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libnginx-mod-http-image-filter.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../13-libnginx-mod-http-image-filter_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libnginx-mod-http-image-filter (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libnginx-mod-http-xslt-filter.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../14-libnginx-mod-http-xslt-filter_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libnginx-mod-mail.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../15-libnginx-mod-mail_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libnginx-mod-mail (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libnginx-mod-stream.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../16-libnginx-mod-stream_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libnginx-mod-stream (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Selecting previously unselected package libnginx-mod-stream-geoip2.
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Preparing to unpack .../17-libnginx-mod-stream-geoip2_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:42 1690661082,,ui,message,    amazon-ebs: Unpacking libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Selecting previously unselected package nginx-core.
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Preparing to unpack .../18-nginx-core_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Unpacking nginx-core (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Selecting previously unselected package nginx.
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Preparing to unpack .../19-nginx_1.18.0-6ubuntu14.4_amd64.deb ...
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Unpacking nginx (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Selecting previously unselected package nodejs.
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Preparing to unpack .../20-nodejs_14.21.3-deb-1nodesource1_amd64.deb ...
+2023/07/29 13:04:43 1690661083,,ui,message,    amazon-ebs: Unpacking nodejs (14.21.3-deb-1nodesource1) ...
+2023/07/29 13:04:46 1690661086,,ui,message,    amazon-ebs: Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.1) ...
+2023/07/29 13:04:46 1690661086,,ui,message,    amazon-ebs: Setting up libdeflate0:amd64 (1.10-2) ...
+2023/07/29 13:04:46 1690661086,,ui,message,    amazon-ebs: Setting up nginx-common (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:47 1690661087,,ui,message,    amazon-ebs: debconf: unable to initialize frontend: Dialog
+2023/07/29 13:04:47 1690661087,,ui,message,    amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal%!(PACKER_COMMA) an emacs shell buffer%!(PACKER_COMMA) or without a controlling terminal.)
+2023/07/29 13:04:47 1690661087,,ui,message,    amazon-ebs: debconf: falling back to frontend: Readline
+2023/07/29 13:04:47 1690661087,,ui,message,    amazon-ebs: Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /lib/systemd/system/nginx.service.
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up nodejs (14.21.3-deb-1nodesource1) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up fonts-dejavu-core (2.37-2build1) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.1) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libnginx-mod-mail (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libnginx-mod-stream (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libtiff5:amd64 (4.3.0-6ubuntu0.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libgd3:amd64 (2.3.0-2ubuntu2) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up libnginx-mod-http-image-filter (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs: Setting up nginx-core (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:48 1690661088,,ui,message,    amazon-ebs:  * Upgrading binary nginx
+2023/07/29 13:04:49 1690661089,,ui,message,    amazon-ebs:    ...done.
+2023/07/29 13:04:49 1690661089,,ui,message,    amazon-ebs: Setting up nginx (1.18.0-6ubuntu14.4) ...
+2023/07/29 13:04:49 1690661089,,ui,message,    amazon-ebs: Processing triggers for ufw (0.36.1-4build1) ...
+2023/07/29 13:04:50 1690661090,,ui,message,    amazon-ebs: Processing triggers for man-db (2.10.2-1) ...
+2023/07/29 13:04:50 1690661090,,ui,message,    amazon-ebs: Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs:
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs: Running kernel seems to be up-to-date.
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs:
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs: No services need to be restarted.
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs:
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs: No containers need to be restarted.
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs:
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs: No user sessions are running outdated binaries.
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs:
+2023/07/29 13:04:51 1690661091,,ui,message,    amazon-ebs: No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2023/07/29 13:04:56 1690661096,,ui,error,==> amazon-ebs: npm notice created a lockfile as package-lock.json. You should commit this file.
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs: added 70 packages from 53 contributors and audited 70 packages in 3.023s
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs:
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs: 8 packages are looking for funding
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs:   run `npm fund` for details
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs:
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs: found 0 vulnerabilities
+2023/07/29 13:04:56 1690661096,,ui,message,    amazon-ebs:
+2023/07/29 13:04:56 1690661096,,ui,error,==> amazon-ebs: Created symlink /etc/systemd/system/multi-user.target.wants/node-demo.service → /etc/systemd/system/node-demo.service.
+2023/07/29 13:04:57 [INFO] 13906 bytes written for 'stdout'
+2023/07/29 13:04:57 [INFO] 603 bytes written for 'stderr'
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:57 packer-provisioner-shell plugin: [INFO] 13906 bytes written for 'stdout'
+2023/07/29 13:04:57 packer-provisioner-shell plugin: [INFO] 603 bytes written for 'stderr'
+2023/07/29 13:04:57 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: rm -f /tmp/script_4344.sh
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:57 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [DEBUG] Opening new ssh session
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [DEBUG] starting remote command: rm -f
+2023/07/29 13:04:57 packer-builder-amazon-ebs plugin: [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] RPC endpoint: Communicator ended with: 0
+2023/07/29 13:04:57 [INFO] (telemetry) ending shell
+2023/07/29 13:04:57 packer-provisioner-shell plugin: [INFO] RPC client: Communicator ended with: 0
+2023/07/29 13:04:57 1690661097,,ui,say,==> amazon-ebs: Stopping the source instance...
+2023/07/29 13:04:57 1690661097,,ui,message,    amazon-ebs: Stopping instance
+2023/07/29 13:04:57 1690661097,,ui,say,==> amazon-ebs: Waiting for the instance to stop...
+2023/07/29 13:05:28 1690661128,,ui,say,==> amazon-ebs: Creating AMI packer-nodejs-demo 1690660983 from instance i-05bdb16ccc8358683
+2023/07/29 13:05:29 1690661129,,ui,message,    amazon-ebs: AMI: ami-014e21ddf79f37ce2
+2023/07/29 13:05:29 1690661129,,ui,say,==> amazon-ebs: Waiting for AMI to become ready...
+2023/07/29 13:07:01 1690661221,,ui,say,==> amazon-ebs: Skipping Enable AMI deprecation...
+2023/07/29 13:07:01 1690661221,,ui,say,==> amazon-ebs: Terminating the source AWS instance...
+2023/07/29 13:07:17 1690661237,,ui,say,==> amazon-ebs: Cleaning up any extra volumes...
+2023/07/29 13:07:17 1690661237,,ui,say,==> amazon-ebs: No volumes to clean up%!(PACKER_COMMA) skipping
+2023/07/29 13:07:17 1690661237,,ui,say,==> amazon-ebs: Deleting temporary security group...
+2023/07/29 13:07:17 1690661237,,ui,say,==> amazon-ebs: Deleting temporary keypair...
+2023/07/29 13:07:18 [INFO] (telemetry) ending amazon-ebs
+2023/07/29 13:07:18 1690661238,,ui,say,Build 'amazon-ebs' finished after 4 minutes 14 seconds.
+2023/07/29 13:07:18 1690661238,,ui,say,\n==> Wait completed after 4 minutes 14 seconds
+2023/07/29 13:07:18 1690661238,,ui,say,\n==> Builds finished. The artifacts of successful builds are:
+2023/07/29 13:07:18 1690661238,amazon-ebs,artifact-count,1
+2023/07/29 13:07:18 1690661238,amazon-ebs,artifact,0,builder-id,mitchellh.amazonebs
+2023/07/29 13:07:18 1690661238,amazon-ebs,artifact,0,id,us-west-2:ami-014e21ddf79f37ce2
+2023/07/29 13:07:18 1690661238,amazon-ebs,artifact,0,string,AMIs were created:\nus-west-2: ami-014e21ddf79f37ce2\n
+2023/07/29 13:07:18 1690661238,amazon-ebs,artifact,0,files-count,0
+2023/07/29 13:07:18 1690661238,amazon-ebs,artifact,0,end
+2023/07/29 13:07:18 1690661238,,ui,say,--> amazon-ebs: AMIs were created:\nus-west-2: ami-014e21ddf79f37ce2\n
+2023/07/29 13:07:18 [INFO] (telemetry) Finalizing.
+2023/07/29 13:07:18 waiting for all plugin processes to complete...
+2023/07/29 13:07:18 /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: plugin process exited
+2023/07/29 13:07:18 /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: plugin process exited
+2023/07/29 13:07:18 /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: plugin process exited
+2023/07/29 13:07:18 /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: plugin process exited
+2023/07/29 13:07:18 /home/linuxbrew/.linuxbrew/Cellar/packer/1.8.6/libexec/bin/packer: plugin process exited
